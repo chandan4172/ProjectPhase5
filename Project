@@ -1,0 +1,32 @@
+DESCRIPTION
+Project objective:
+Amazon Web Services (abbreviated AWS) is a collection of remote computing services (also called web services) that together make a cloud computing platform, offered over the Internet by Amazon for an infrastructure. Let's consider the Swiggy application which uses Devops tools like (Jenkins/Appium/Docker) for improved automated testing infrastructure, continuous integration, continuous deployment, and continuous delivery.
+Background of the problem statement:
+As a part of cloud and devops CI/CD, the user should have access to sign in to the AWS console to perform create an EC2 instance, S3 bucket, EBS volume, and mounting. Create CI/CD pipeline using AWS, Jenkins, Docker and automate the cloud-based testing for mobile application using appium.
+You must use the following:
+ 
+•	AWS console access
+•	JAVA 1.8 version
+•	Appium
+•	Jenkins in EC2 machine
+•	Docker in EC2 machine
+The following requirements should be met:
+ 
+•	Create Maven project for the Swiggy application. (https://www.swiggy.com/)
+•	Write an Appium script.
+•	Create an AWS account in console.
+•	Set up user/policies in IAM to perform actions with respect to service.
+•	Set up SSH and the user should be able to connect the ec2 machine from their local (Mac/Linux).
+•	Create an IAM user that can perform to create EC2 instance, S3 bucket, creating EBS volume, and mounting in AWS console.
+•	Set up Jenkins server by installing Jenkins in ec2 and by installing required plugins like Docker/Selenium in Jenkins.
+•	Set up Docker for containerizing your application on Docker.
+•	Create a CI/CD pipeline in Jenkins with Appium test cases and containerizing the application using Docker.
+
+Solution
+Create Maven project for the Swiggy application. (https://www.swiggy.com/)
+o Swiggy mobile application to find the ‘Domino’s Pizza’ scenario is taken for automation. 
+o Simulated mobile of Android 11 version was created using Android Studio
+ o Device was added with desired capability on the Appium
+o Elements were identified using XPath, ID on the Appium Inspector
+o Details collected for the Swiggy mobile application is automated using JUnit, Android Driver 
+
